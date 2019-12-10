@@ -45,4 +45,10 @@
 
 ## 第二部分：产品原型
 
+### 产品框架示意图
 
+![产品框架](https://images.gitee.com/uploads/images/2019/1210/232011_b6aec5f5_1648233.png "在这里输入图片标题")
+
+### 产品核心功能图片
+
+![产品核心技术](https://images.gitee.com/uploads/images/2019/1210/232143_f2028083_1648233.png "产品核心功能图.png")
