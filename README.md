@@ -52,3 +52,6 @@
 ### 产品核心功能图片
 
 ![产品核心技术](https://images.gitee.com/uploads/images/2019/1210/232143_f2028083_1648233.png "产品核心功能图.png")
+
+### 产品使用流程图
+![流程图](https://images.gitee.com/uploads/images/2019/1210/232429_c9da968f_1648233.jpeg "懂你所动流程图.jpg")
