@@ -85,8 +85,6 @@ ps：在使用以上输入代码时必须先获取token，使用示例代码前�
 
 ![输出2](https://images.gitee.com/uploads/images/2019/1211/102826_297f6585_1648233.png "输出2.png")
 
-![输出3](https://images.gitee.com/uploads/images/2019/1211/102842_f52c8fa7_1648233.png "输出3.png")
-
 ![输出4](https://images.gitee.com/uploads/images/2019/1211/102858_b3ccc702_1648233.png "输出4.png")
 
 - 以上输出内容为输入一张静态图片后输出了结果，结果包括了人体21个关键点的分析
@@ -139,4 +137,11 @@ ps：在使用以上输入代码时必须先获取token，使用示例代码前�
 当前人体关键点识别、人体检测与属性识别、人流量统计、人像分割、手势识别5个接口支持在线购买QPS。购买QPS后，无论是否通过企业认证，调用量额度都会升级为无限制。
 
 ![定价](https://images.gitee.com/uploads/images/2019/1211/115009_813ca7e1_1648233.png "定价.png")
+
+具体定价请查看[百度API人体关键点分析定价](https://ai.baidu.com/ai-doc/BODY/mk3cpyhfe)
+
+### 加分项
+
+- 用到百度API人体关键点识别，人体检测与人脸属性API，具体调用如下显示：
+
 
