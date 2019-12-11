@@ -73,7 +73,30 @@
 
 - 输入：上传图片获取关键点信息
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1211/102321_3b5e1a18_1648233.png "关键点输入.png")
+```
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+人体关键点识别
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/body_analysis"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+    
+```
 
 ps：在使用以上输入代码时必须先获取token，使用示例代码前，请记得替换其中的示例Token、图片地址或Base64信息
 具体获取token的方法请看
