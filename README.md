@@ -78,3 +78,17 @@
 ps：在使用以上输入代码时必须先获取token，使用示例代码前，请记得替换其中的示例Token、图片地址或Base64信息
 具体获取token的方法请看
 [百度API获取token的方法](https://ai.baidu.com/ai-doc/REFERENCE/Ck3dwjhhu)
+
+- 人体关键点分析输出结果示意图
+
+![输出1](https://images.gitee.com/uploads/images/2019/1211/102807_e73b7607_1648233.png "输出1.png")
+
+![输出2](https://images.gitee.com/uploads/images/2019/1211/102826_297f6585_1648233.png "输出2.png")
+
+![输出3](https://images.gitee.com/uploads/images/2019/1211/102842_f52c8fa7_1648233.png "输出3.png")
+
+![输出4](https://images.gitee.com/uploads/images/2019/1211/102858_b3ccc702_1648233.png "输出4.png")
+
+- 以上输出内容为输入一张静态图片后输出了结果，结果包括了人体21个关键点的分析
+- body_parts，一共21个part，每个part包含x，y两个坐标，如果part被截断，则x、y坐标为part被截断的图片边界位置，part顺序以实际返回顺序为准。
+- 接口返回人体坐标框和每个关键点的置信度分数，在应用时可综合置信度score分数，过滤掉置信度低的“无效人体”，建议过滤方法：当关键点得分大于0.2的个数大于3，且人体框的分数大于0.03时，才认为是有效人体。实际应用中，可根据对误识别、漏识别的容忍程度，调整阈值过滤方案，灵活应用。
