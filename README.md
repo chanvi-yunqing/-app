@@ -89,6 +89,11 @@
 
 ### 原型3.原型文档
 
+[APP原型文档链接](https://nfunm010.gitee.io/sports_app/#id=fug87y&p=%E5%B0%81%E9%A1%B5&g=1)
+
+[APP原型下载](https://gitee.com/NFUNM010/sports_app)
+
+
 ### 原型4.口头操作说明
 
 ## API 产品使用关键AI或机器学习之API的输出入展示
