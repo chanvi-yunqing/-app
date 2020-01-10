@@ -197,5 +197,8 @@
 
 [API人体检测与属性识别代码调用](https://github.com/chanvi-yunqing/API_ML_AI-sports/blob/master/API%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3.md)
 
+### 20*20Powerpoint链接入口
+- [20*20Powerpoint](https://www.bilibili.com/video/av82774074)
+
 
 
